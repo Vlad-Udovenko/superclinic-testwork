@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <title>Superclinic</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-logo">
+            <img class="header-logo_img" src="./dist/img/logo.png" alt="Not Found Logo.png">
+            <div class="header-logo_text">Superclinic</div>
+            <div class="header-logo_smText">насолодись свободою руху</div>
+        </div>
+        <div class="header-menu">
+            <div class="header-menu_link">Переваги</div>
+            <div class="header-menu_link">ціни</div>
+            <div class="header-menu_link">лікування</div>
+            <div class="header-menu_link">Контакти</div>
+        </div>
+        <button class="header-button">Записатись на прийом</button>
+    </header>
+    <section class="section">
+        <div class="sectionTop">
+            <h3 class="sectionTop-subheader">ПОВНИЙ КОМПЛЕКС МЕДИЧНИХ ПОСЛУГ</h3>
+            <h1 class="sectionTop-header">Європейські стандарти медичної допомоги</h1>
+            <button class="sectionTop-button">про клініку</button>
+        </div>
+
+    </section>
+    <section class="info">
+        <div class="info-block">м. Київ, вул. Еленівська, 8</div>
+        <div class="info-block unic">(095) 222 22 22 <br>(068) 222 22 22 <br> (063) 222 22 22</div>
+        <div class="info-block">info@clinic.com</div>
+    </section>
+    <section class="main">
+        <h3 class="main-text">Комплексний підхід до Вашого здоров'я</h3>
+        <h2 class="main-header"> Ключові напрамки</h2>
+        <div class="main-separate">
+            <div class="main-separate_line"></div>
+            <div class="main-separate_star">&#9733</div>
+            <div class="main-separate_line"></div>
+        </div>
+        <div class="main-block">
+            <div class="main-block_item tablinks"  onclick="openTab(event, 'nevrology')" id="defaultOpen">
+                <img src="./dist/img/Brain.png" alt="Not Found /Brain.png">
+                <h5 class="main-block_item-text">Неврологія</h5>
+            </div>
+            <div class="main-block_item unic tablinks" onclick="openTab(event, 'massage')">
+                <img src="./dist/img/people.png" alt="Not Found /people.png">
+                <h5 class="main-block_item-text">Масаж</h5>
+            </div>
+            <div class="main-block_item tablinks" onclick="openTab(event, 'revmatology')">
+                <img src="./dist/img/bone.png" alt="Not Found /bone.png">
+                <h5 class="main-block_item-text">Ревматологія</h5>
+            </div>
+        </div>
+        <div id="nevrology" class="tabcontent">
+            <div class="tabcontent-arrow"></div>
+            <div class="tabcontent-info">
+                <h3 class="tabcontent-info_header">Неврологія</h3>
+                <div class="tabcontent-info_text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="tabcontent-info_button">Деталі</div>
+            </div>
+            <div class="tabcontent-img">
+                <img src="./dist/img/nevrology.png" alt="Not Found nevrology.png">
+            </div>
+
+        </div>
+
+        <div id="massage" class="tabcontent">
+            <div class="tabcontent-arrow"></div>
+            <div class="tabcontent-info">
+                <h3 class="tabcontent-info_header">Масаж</h3>
+                <div class="tabcontent-info_text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="tabcontent-info_button">Деталі</div>
+            </div>
+            <div class="tabcontent-img">
+                <img src="./dist/img/massage.png" alt="Not Found massage.png">
+            </div>
+
+        </div>
+        <div id="revmatology" class="tabcontent">
+            <div class="tabcontent-arrow"></div>
+            <div class="tabcontent-info">
+                <h3 class="tabcontent-info_header">Pевматологія</h3>
+                <div class="tabcontent-info_text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. </p>
+                </div>
+                <div class="tabcontent-info_button">Деталі</div>
+            </div>
+            <div class="tabcontent-img">
+                <img src="./dist/img/revmatology.png" alt="Not Found revmatology.png">
+            </div>
+        </div>
+    </section>
+    <script src='dist/js/index.js'></script>
+</body>
+
+</html>

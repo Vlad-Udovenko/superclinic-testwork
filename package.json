@@ -1,0 +1,26 @@
+{
+  "name": "TestWork",
+  "version": "1.0.0",
+  "description": "Test work",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.0.0",
+    "gulp-image": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify-es": "^1.0.4",
+    "node-normalize-scss": "^8.1.2"
+  },
+  "keywords": []
+}
